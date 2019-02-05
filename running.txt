@@ -1,0 +1,6 @@
+
+
+JENKINS_PASSWORD
+
+
+ docker run --name myjenkins -e JENKINS_PASSWORD='admin' -p 8080:8080 -p 50000:50000 registry.access.redhat.com/openshift3/jenkins-2-rhel7:v3.10
