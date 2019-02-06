@@ -1,7 +1,14 @@
 #!/usr/bin/env groovy
 
-node("test") {
-    stage("1") {
-        println "Hello world!"
-    }
-}
+// pipeline {
+//         agent any
+//         stages {
+//             stage('Test') {
+//                 steps {
+//                     echo 'Hello World ...'
+//                 }
+//             }
+//         }
+//     }
+
+ echo 'Hello World ...'
