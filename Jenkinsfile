@@ -1,3 +1,7 @@
 #!/usr/bin/env groovy
 
-println "Hello world!"
+node("test") {
+    stage("1") {
+        println "Hello world!"
+    }
+}
